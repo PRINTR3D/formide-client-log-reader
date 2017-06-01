@@ -3,8 +3,7 @@
 const fs = require('fs')
 const path = require('path')
 const LineReader = require('line-by-line')
-const logFileLocation = '/Users/chris/formide/communication/tty.usbmodem1411.log'
-// const logFileLocation = '/data/logs/daemon.log'
+const logFileLocation = '/data/logs/daemon.log'
 
 module.exports = function api (plugin, router) {
 	
